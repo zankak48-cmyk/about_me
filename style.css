@@ -18,3 +18,13 @@ section {
   padding: 15px;
   border-radius: 5px;
 }
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    margin: 10px;
+  }
+}
+

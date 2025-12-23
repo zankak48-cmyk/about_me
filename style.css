@@ -18,31 +18,57 @@ section {
   padding: 15px;
   border-radius: 5px;
 }
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Dark Mode */
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.dark section {
+  background-color: #1e1e1e;
+}
+
+/* زر Dark Mode */
+button {
+  margin: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+/* Email hover effect */
+a.email-link {
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.email-link:hover {
+  color: #e91e63; /* اللون عند المرور */
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 14px;
   }
-  body.dark {
-  background-color: #121212;
-  color: #ffffff;
-}
-
-body.dark header {
-  background-color: #000;
-}
-
-body.dark section {
-  background-color: #1e1e1e;
-  color: #ffffff;
-}
-
-body.dark .email-link:hover {
-  color: #ff9900;
-}
-
-
   section {
     margin: 10px;
   }
+  button {
+    width: 100%;
+  }
 }
-

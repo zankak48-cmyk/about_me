@@ -22,6 +22,24 @@ section {
   body {
     font-size: 14px;
   }
+  body.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark header {
+  background-color: #000;
+}
+
+body.dark section {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark .email-link:hover {
+  color: #ff9900;
+}
+
 
   section {
     margin: 10px;

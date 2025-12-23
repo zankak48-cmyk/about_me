@@ -1,1 +1,20 @@
-cv style
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}

@@ -72,3 +72,49 @@ a.email-link:hover {
     width: 100%;
   }
 }
+
+/* ====== Responsive Scaling ====== */
+
+/* يجعل العناصر لا تتجاوز حجم الشاشة */
+* {
+  box-sizing: border-box;
+}
+
+/* يمنع التمرير الأفقي */
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+section,
+header,
+footer {
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  section {
+    padding: 12px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
